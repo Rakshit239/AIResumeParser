@@ -1,0 +1,9 @@
+#PDF parsing
+PyMuPDF
+
+# word parsing
+python-docx
+
+# API server
+Flask
+flask-cors

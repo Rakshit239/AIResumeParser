@@ -1,0 +1,50 @@
+<div class="card shadow-sm">
+  <div class="card-body">
+    <h5 class="card-title mb-3">Upload Job Description</h5>
+
+    <div class="mb-3">
+      <label for="jobDescriptionFile" class="form-label">Choose a file (.pdf, .docx, .txt)</label>
+      <input
+        id="jobDescriptionFile"
+        type="file"
+        class="form-control"
+        accept=".pdf,.docx,.txt"
+        (change)="onFileSelected($event)"
+      />
+    </div>
+
+    @if (errorMessage()) {
+      <div class="alert alert-danger" role="alert">
+        {{ errorMessage() }}
+      </div>
+    }
+
+    <div class="d-flex gap-2">
+      <button
+        type="button"
+        class="btn btn-primary"
+        [disabled]="!selectedFile() || loading()"
+        (click)="onUpload()"
+      >
+        @if (loading()) {
+          <span class="spinner-border spinner-border-sm me-2" aria-hidden="true"></span>
+          <span>Parsing...</span>
+        } @else {
+          <span>Upload &amp; Extract Text</span>
+        }
+      </button>
+
+      @if (extractedText() || errorMessage()) {
+        <button type="button" class="btn btn-outline-secondary" (click)="reset()">Reset</button>
+      }
+    </div>
+
+    @if (extractedText()) {
+      <hr />
+      <h6 class="mb-2">Extracted Text</h6>
+      <div class="card bg-body-tertiary">
+        <pre class="card-body mb-0" style="white-space: pre-wrap; word-break: break-word;">{{ extractedText() }}</pre>
+      </div>
+    }
+  </div>
+</div>
