@@ -16,3 +16,18 @@ dist/
 node_modules/
 dist/
 .angular/
+
+# Exclude uploaded resumes and personal data
+data/resumes/*
+!data/resumes/.gitkeep
+
+# Exclude generated files
+.venv/
+venv/
+node_modules/
+dist/
+.angular/
+__pycache__/
+*.pyc
+.env
+.DS_Store
