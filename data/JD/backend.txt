@@ -1,0 +1,31 @@
+Job Title: Machine Learning Engineer
+
+Experience: 0–2 Years
+
+Required Skills
+Python
+NumPy
+Pandas
+Scikit-learn
+TensorFlow
+PyTorch
+Deep Learning
+NLP
+Data Preprocessing
+Feature Engineering
+Git
+Preferred Skills
+Computer Vision
+Hugging Face
+Docker
+AWS
+Responsibilities
+Develop machine learning models.
+Train and evaluate models.
+Process datasets.
+Deploy ML models.
+Optimize model performance.
+Collaborate with software teams.
+Education
+
+Bachelor's degree in Computer Science, Artificial Intelligence, or related field.

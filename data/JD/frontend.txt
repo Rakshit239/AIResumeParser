@@ -1,0 +1,32 @@
+Job Title: Frontend Developer
+
+Experience: 0–2 Years
+
+Required Skills
+HTML5
+CSS3
+JavaScript (ES6+)
+React.js
+Next.js
+TypeScript
+Tailwind CSS
+Bootstrap
+Redux
+Git
+Responsive Web Design
+REST APIs
+Preferred Skills
+Firebase
+Vercel
+Figma
+Performance Optimization
+Responsibilities
+Build responsive web applications.
+Develop reusable React components.
+Integrate REST APIs.
+Optimize application performance.
+Collaborate with backend developers.
+Debug frontend issues.
+Education
+
+Bachelor's degree in Computer Science or related field.

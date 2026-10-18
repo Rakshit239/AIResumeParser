@@ -1,0 +1,20 @@
+#PDF parsing
+PyMuPDF
+
+# word parsing
+python-docx
+
+# API server
+Flask
+flask-cors
+
+#for matching 
+sentence-transformers
+ scikit-learn
+
+
+spacy 
+pandas
+
+
+# python -m spacy download en_core_web_sm

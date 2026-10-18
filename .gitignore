@@ -1,0 +1,18 @@
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.pyc
+# Node.js and Angular generated files
+node_modules/
+dist/
+.angular/
+
+# Other generated files
+.DS_Store
+
+# Angular generated files
+node_modules/
+dist/
+.angular/

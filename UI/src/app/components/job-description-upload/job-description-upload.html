@@ -1,0 +1,234 @@
+
+
+<div class="container-fluid mt-4 main-container">
+
+  <div class="row">
+
+
+    <div class="col-lg-4">
+
+      <div class="card jd-card">
+
+        <div class="card-header fw-bold">
+          JOB DESCRIPTIONS
+        </div>
+
+        <ul class="list-group list-group-flush">
+
+        @for(job of jobDescriptions; track job){
+
+        <li
+            class="list-group-item d-flex justify-content-between align-items-center"
+            [class.active]="selectedJob()===job"
+            (click)="selectJob(job)"
+        >
+
+            <span>{{ job }}</span>
+
+            <button
+                type="button"
+                class="btn btn-sm btn-outline-info"
+                (click)="viewJD(job); $event.stopPropagation()"
+            >
+                View
+            </button>
+
+            </li>
+
+        }
+
+        </ul>
+
+      </div>
+
+    </div>
+
+
+
+
+
+  
+
+    <div class="col-lg-8">
+
+      <div class="card analysis-card">
+
+        <div class="analysis-header">
+
+          <h2>Match Analysis</h2>
+
+          <span>
+
+            Target Role :
+
+            <b>{{selectedJob()}}</b>
+
+          </span>
+
+        </div>
+
+
+
+        <!-- Upload Section -->
+        @if(!selectedFile()){
+
+<div class="upload-area" (click)="fileInput.click()">
+
+    <i class="bi bi-cloud-arrow-up-fill upload-icon"></i>
+
+    <h3>Upload Resume</h3>
+
+    <p>
+        Drag & Drop your resume here
+    </p>
+
+    <button type="button" class="btn btn-primary">
+        Browse Files
+    </button>
+
+    <small>
+        Supported: PDF • DOCX • TXT
+    </small>
+
+    
+
+</div>
+
+}
+@else {
+
+<div class="uploaded-container">
+
+    <!-- Top File Card -->
+
+    <div class="resume-card">
+
+        <div class="resume-info">
+
+            <i class="bi bi-file-earmark-pdf-fill file-icon"></i>
+
+            <div>
+
+                <h5>{{ selectedFile()?.name }}</h5>
+
+                <small>Resume Uploaded</small>
+
+            </div>
+
+        </div>
+
+        <button
+            class="btn btn-outline-primary btn-sm"
+            (click)="fileInput.click()">
+             Change
+        </button>
+
+    </div>
+
+    <hr>
+
+    <!-- Score + Skills -->
+<!-- Score + Skills -->
+<!-- Loader -->
+@if (loading()) {
+
+<div class="loader-container">
+
+    <div class="loader"></div>
+
+    <h4>Analyzing Resume...</h4>
+
+    <p>Please wait while we analyze your resume.</p>
+
+</div>
+
+}
+
+
+@else if (analysisReady()) {
+
+<div class="analysis-result">
+
+
+    <div class="score-section">
+
+        <div class="progress-wrapper">
+
+            <svg width="145" height="145">
+
+                <circle
+                    cx="72"
+                    cy="72"
+                    r="56"
+                    class="progress-bg">
+                </circle>
+
+                <circle
+                    cx="72"
+                    cy="72"
+                    r="56"
+                    class="progress-ring"
+                    [attr.stroke]="getScoreColor()"
+                    [attr.stroke-dasharray]="getCircumference()"
+                    [attr.stroke-dashoffset]="getProgressOffset()">
+                </circle>
+
+            </svg>
+
+            <div class="progress-text">
+                {{ matchScore() }}%
+            </div>
+
+        </div>
+
+        <div
+            class="match-status"
+            [style.color]="getScoreColor()">
+
+            {{ getMatchLabel() }}
+
+        </div>
+
+    </div>
+
+
+
+    <div class="skills-section">
+
+        <h5>Resume Skills</h5>
+
+        <div class="skill-container">
+
+            @for(skill of matchedSkills(); track skill){
+
+                <span class="skill-chip">
+                    {{skill}}
+                </span>
+
+            }
+
+        </div>
+
+    </div>
+
+</div>
+
+}
+</div> 
+
+} 
+
+</div> 
+
+</div>
+
+</div> 
+
+</div> 
+<input
+        #fileInput
+        type="file"
+        hidden
+        accept=".pdf,.docx,.txt"
+        (change)="onFileSelected($event)"
+    />

@@ -1,0 +1,68 @@
+Introduction: We are seeking a highly skilled Senior ML Engineer - Gen AI to join our innovative team. This role is pivotal in driving the development and deployment of cutting-edge generative AI solutions that transform business processes and customer experiences. The successful candidate will leverage advanced machine learning techniques and state-of-the-art tools to build scalable, intelligent systems that deliver significant impact across the organization.
+
+Roles and Responsibilities:
+
+Design, develop, and optimize machine learning models, focusing on generative AI and large language models (LLM) to solve complex business problems.
+Implement and maintain robust MLOps pipelines for continuous integration, deployment, and monitoring of AI models in production environments.
+Develop and integrate Agentic AI systems that enable autonomous decision-making and enhance AI-driven workflows.
+Utilize vector search technologies to improve information retrieval and recommendation systems.
+Build and manage applications using Lang Chain and Lang Graph frameworks to enhance natural language understanding and generation capabilities.
+Collaborate with cross-functional teams including data scientists, software engineers, and product managers to translate business requirements into scalable AI solutions.
+Ensure best practices in code quality, testing, and documentation are followed.
+Optimize cloud infrastructure and AI workloads on AWS to ensure high availability, scalability, and cost-efficiency.
+Stay abreast of emerging trends and advancements in generative AI and machine learning to continuously innovate and improve solutions.
+ 
+
+Qualifications:
+
+Bachelor’s or Master’s degree in Computer Science, Engineering, Data Science, or a related field. Advanced degrees preferred.
+5-8 years of professional experience in machine learning engineering, with a strong focus on generative AI and large language models.
+Proven expertise in Python programming and relevant ML libraries and frameworks.
+Hands-on experience with MLOps tools and practices for model deployment and lifecycle management.
+Deep understanding of LLM architectures and practical experience working with models like GPT, BERT, or similar.
+Experience developing and deploying Agentic AI systems or autonomous AI agents.
+Proficiency in implementing vector search algorithms and technologies such as FAISS or similar.
+Practical knowledge of Lang Chain and Lang Graph for advanced language model applications.
+Strong experience with cloud platforms, particularly AWS, including services related to AI/ML like SageMaker, Lambda, and EC2.
+Excellent problem-solving skills, communication abilities, and teamwork orientation.
+ 
+
+Tools and Technologies:
+
+Machine Learning Frameworks: TensorFlow, PyTorch, Scikit-learn
+Programming Languages: Python (primary)
+MLOps: MLflow, Kubeflow, Airflow, Docker, Kubernetes
+Large Language Models: GPT, BERT, OpenAI APIs
+Agentic AI: Autonomous agent frameworks and custom implementations
+Vector Search: FAISS, Annoy, Elasticsearch vector capabilities
+Lang Chain & Lang Graph frameworks
+Cloud Platforms: AWS (SageMaker, Lambda, EC2, S3)
+Version control and collaboration: Git, GitHub/GitLab
+ 
+
+Join us to be at the forefront of generative AI innovation, driving impactful solutions that redefine the future of intelligent systems.
+
+
+skills:
+Required Skills
+Python
+NumPy
+Pandas
+Scikit-learn
+TensorFlow
+PyTorch
+Deep Learning
+NLP
+Data Preprocessing
+Feature Engineering
+Git
+Preferred Skills
+Computer Vision
+Hugging Face
+Docker
+AWS
+Responsibilities
+Develop machine learning models.
+Train and evaluate models.
+Process datasets.
+Deploy ML models.

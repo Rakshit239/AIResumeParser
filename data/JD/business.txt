@@ -1,0 +1,57 @@
+We are looking for a proactive and detail-oriented Business Analyst (SDLC) to support end-to-end software development lifecycle (SDLC) activities and day-to-day product operations. The ideal candidate will work closely with business stakeholders, product owners, QA, and the development team to understand business needs, analyze data, document requirements, and ensure successful delivery of product enhancements and issue resolutions. This role requires strong analytical skills, SQL knowledge, and excellent communication abilities to bridge the gap between business and technology.
+
+ 
+
+Key Responsibilities
+
+Gather, analyze, and document business requirements from stakeholders with clarity and completeness.
+Convert business requirements into well-structured functional requirements, user stories, process flows, and acceptance criteria for the development team.
+Participate in all phases of the Software Development Life Cycle (SDLC), including requirement analysis, solution design, development support, testing, deployment, and post-release support.
+Collaborate with product owners, business users, developers, QA teams, and other stakeholders throughout the SDLC to ensure successful delivery of product enhancements.
+Perform impact analysis for new business requirements and change requests to assess functional and technical implications.
+Perform data analysis using SQL to validate business scenarios, investigate issues, and generate insights for decision-making.
+Collaborate with product owners, business users, and engineering teams throughout the software development lifecycle.
+Coordinate with development and QA teams to clarify requirements and ensure successful implementation.
+Manage and track issues reported by users, perform initial analysis, and coordinate with the development team for timely resolution.
+Validate delivered features against business requirements before release.
+Prepare business process documentation, requirement specifications, workflows, and release notes as required.
+Participate in sprint planning, backlog refinement, UAT support, and production issue analysis.
+Ensure all documentation is maintained accurately and updated throughout the project lifecycle.
+Support continuous improvement initiatives by identifying opportunities to enhance business processes and system functionality.
+Required Technical Skills
+
+Strong SQL skills with the ability to query, analyse, and validate data.
+Good understanding of relational databases and data analysis techniques.
+Experience in writing Business Requirement Documents (BRD), Functional Requirement Documents (FRD), user stories, and acceptance criteria.
+Familiarity with Agile/Scrum methodology.
+Knowledge of tools such as Jira, Confluence, Azure DevOps, or similar project management tools.
+Proficiency in Microsoft Excel for data analysis and reporting.
+bility to leverage Large Language Models (LLMs) and AI tools to improve requirement analysis, documentation, productivity, and day-to-day business analysis activities.
+Required Functional Skills
+
+Excellent requirement gathering and business analysis skills.
+Strong understanding of SDLC processes, change management, and release management.
+Strong analytical and problem-solving abilities.
+Ability to communicate effectively with both technical and non-technical stakeholders.
+Excellent documentation and presentation skills.
+Strong organizational and multitasking abilities.
+Ability to coordinate multiple stakeholders and manage priorities effectively.
+Should be able to use LLM as needed 
+
+Required Skills:
+
+Data Analysis
+SQL
+Excel
+Python
+Statistics
+Data Visualization
+Power BI
+Tableau
+Business Intelligence
+Requirement Gathering
+Business Process Analysis
+Documentation & Reporting
+Problem Solving
+Communication Skills
+Stakeholder Management
